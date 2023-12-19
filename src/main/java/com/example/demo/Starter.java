@@ -10,5 +10,10 @@ public class Starter {
 	public String Demo() {
 		return "Hello Docker";
 	}
+	
+	@GetMapping("/jenkins")
+	public String Jenkins() {
+		return "Hello Jenkins";
+	}
 
 }
